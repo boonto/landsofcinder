@@ -1,0 +1,258 @@
+<ObjectList>
+    <Tile>
+        <Name>River_Bridge_Tile</Name>
+        <ModelPath>river_bridge_tile/river_bridge_tile.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>1;0;1;0;</Fields>
+    </Tile>
+    <Tile>
+        <Name>Dirt_Tile</Name>
+        <ModelPath>river_bridge_tile/Dirt.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>1;1;1;1;</Fields>
+    </Tile>
+    <Tile>
+        <Name>Dirt_Hill_Tile</Name>
+        <ModelPath>river_bridge_tile/Dirt_Hill.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>0;0;0;0;</Fields>
+    </Tile>
+    <Tile>
+        <Name>Grass_Tile</Name>
+        <ModelPath>river_bridge_tile/grass.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>1;1;1;1;</Fields>
+    </Tile>
+    <Tile>
+        <Name>Grass_And_Mud_Tile</Name>
+        <ModelPath>river_bridge_tile/Grass_And_Mud.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>1;1;1;1;</Fields>
+    </Tile>
+    <Tile>
+        <Name>River_Tile</Name>
+        <ModelPath>river_bridge_tile/river.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>0;0;0;0;</Fields>
+    </Tile>
+    <Object>
+        <Name>Amboss</Name>
+        <ModelPath>amboss/amboss.g3db</ModelPath>
+        <Icon>Object/amboss_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+    <Object>
+        <Name>River_Bridge_Tile</Name>
+        <ModelPath>river_bridge_tile/river_bridge_tile.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+    </Object>
+    <Object>
+        <Name>Klohäusschen</Name>
+        <ModelPath>klohaus/klohaus.g3db</ModelPath>
+        <Icon>Object/klohaus_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Bett</Name>
+        <ModelPath>bett/bett.g3db</ModelPath>
+        <Icon>Object/bett_icon.png</Icon>
+        <Size>2,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Fass</Name>
+        <ModelPath>fass/fass.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Arbeitstisch</Name>
+        <ModelPath>arbeitstisch/arbeitstisch.g3db</ModelPath>
+        <Icon>Object/arbeitstisch_icon.png</Icon>
+        <Size>2,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Werkbank</Name>
+        <ModelPath>werkbank/werkbank.g3db</ModelPath>
+        <Icon>Object/werkbank_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baumstämme</Name>
+        <ModelPath>baumstaemme/baumstaemme.g3db</ModelPath>
+        <Icon>Object/baumstaemme_icon.png</Icon>
+        <Size>4,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Busch</Name>
+        <ModelPath>busch/busch.g3db</ModelPath>
+        <Icon>Object/busch_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Feuerstelle</Name>
+        <ModelPath>feuerstelle/feuerstelle.g3db</ModelPath>
+        <Icon>Object/feuerstelle_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Kohlelore</Name>
+        <ModelPath>kohlelore/kohlelore.g3db</ModelPath>
+        <Icon>Object/kohlelore_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Metallteile</Name>
+        <ModelPath>metallteile/metallteile.g3db</ModelPath>
+        <Icon>Object/metallteile_icon.png</Icon>
+        <Size>3,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Pilze</Name>
+        <ModelPath>pilze/pilze.g3db</ModelPath>
+        <Icon>Object/pilze_icon.png</Icon>
+        <Size>0,0</Size>
+    </Object>
+
+    <Object>
+        <Name>Wegweiser</Name>
+        <ModelPath>wegweiser/wegweiser.g3db</ModelPath>
+        <Icon>Object/wegweiser_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Holztisch</Name>
+        <ModelPath>tisch_01/tisch_01.g3db</ModelPath>
+        <Icon>Object/tisch_01_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Felsen</Name>
+        <ModelPath>stein_01/stein_01.g3db</ModelPath>
+        <Icon>Object/stein_01_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Kleiner Kneipentisch</Name>
+        <ModelPath>tisch_klein/tisch_klein.g3db</ModelPath>
+        <Icon>Object/kleinerKneipentisch_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Großer Kneipentisch</Name>
+        <ModelPath>tisch_gross/tisch_gross.g3db</ModelPath>
+        <Icon>Object/grosserKneipentisch_icon.png</Icon>
+        <Size>2,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Theke</Name>
+        <ModelPath>theke/theke.g3db</ModelPath>
+        <Icon>Object/theke_icon.png</Icon>
+        <Size>4,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Stuhl</Name>
+        <ModelPath>stuhl/stuhl.g3db</ModelPath>
+        <Icon>Object/stuhl_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Hohes Gras</Name>
+        <ModelPath>hohesGras/hohesGras.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Size>0,0</Size>
+    </Object>
+
+    <Object>
+        <Name>Kolbenmechanismus</Name>
+        <ModelPath>kolbenmechanismus/kolbenmechanismus.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Size>4,2</Size>
+    </Object>
+
+    <Object>
+        <Name>Kutsche</Name>
+        <ModelPath>kutsche/kutsche.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Size>6,3</Size>
+    </Object>
+
+    <Object>
+        <Name>Hammer und Amboss</Name>
+        <ModelPath>amboss_dekoriert/amboss_dekoriert.g3db</ModelPath>
+        <Icon>Object/hammerUndAmboss_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baum 1</Name>
+        <ModelPath>baume/baum1.g3db</ModelPath>
+        <Icon>Object/baum1_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baum 2</Name>
+        <ModelPath>baume/baum2.g3db</ModelPath>
+        <Icon>Object/baum2_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baum 3</Name>
+        <ModelPath>baume/baum3.g3db</ModelPath>
+        <Icon>Object/baum3_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baum 4</Name>
+        <ModelPath>baume/baum4.g3db</ModelPath>
+        <Icon>Object/baum4_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Baum 5</Name>
+        <ModelPath>baume/baum5.g3db</ModelPath>
+        <Icon>Object/baum5_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+    <Object>
+        <Name>Eimer</Name>
+        <ModelPath>eimer/eimer.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Size>1,1</Size>
+    </Object>
+
+</ObjectList>

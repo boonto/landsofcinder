@@ -1,0 +1,43 @@
+<CommentaryObjectList>
+
+    <CommentaryObject>
+        <Name>Amboss</Name>
+        <ModelPath>hammerUndAmboss/hammerUndAmboss.g3db</ModelPath>
+        <Icon>Object/hammerUndAmboss_icon.png</Icon>
+        <Size>1,1</Size>
+        <Dialog>Onkel Rufus ist ein ziemlich guter Schmied!</Dialog>
+    </CommentaryObject>
+
+    <CommentaryObject>
+        <Name>Bett</Name>
+        <ModelPath>bett/bett.g3db</ModelPath>
+        <Icon>Object/bett_icon.png</Icon>
+        <Size>2,1</Size>
+        <Dialog>Schlafen kann ich später!</Dialog>
+    </CommentaryObject>
+
+    <CommentaryObject>
+        <Name>Arbeitstisch</Name>
+        <ModelPath>arbeitstisch/arbeitstisch.g3db</ModelPath>
+        <Icon>Object/arbeitstisch_icon.png</Icon>
+        <Size>2,1</Size>
+        <Dialog>Viele Zeichnungen!</Dialog>
+    </CommentaryObject>
+
+    <CommentaryObject>
+        <Name>Tisch</Name>
+        <ModelPath>tisch_01/tisch_01.g3db</ModelPath>
+        <Icon>Object/tisch_01_icon.png</Icon>
+        <Size>1,1</Size>
+        <Dialog>Ohoho, was für ein feiner Tisch!</Dialog>
+    </CommentaryObject>
+
+    <CommentaryObject>
+        <Name>Theke</Name>
+        <ModelPath>theke/theke.g3db</ModelPath>
+        <Icon>Object/theke_icon.png</Icon>
+        <Size>3,1</Size>
+        <Dialog>Na sowas, hier steht ja eine Theke?! Erstmal ein kühles Bier!</Dialog>
+    </CommentaryObject>
+
+</CommentaryObjectList>

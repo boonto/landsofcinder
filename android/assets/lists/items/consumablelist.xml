@@ -1,0 +1,59 @@
+<ConsumableList>
+
+    <Consumable>
+        <Name>Heiltrank</Name>
+        <Description>Das heilende Aroma ist gut für den Magen.</Description>
+        <ModelPath>heiltrank/heiltrank.g3db</ModelPath>
+        <Icon>Consumable/heiltrank_icon.png</Icon>
+        <Stat>HEALTHRESTORE,15</Stat>
+    </Consumable>
+
+    <Consumable>
+        <Name>Apfel</Name>
+        <Description>Ein frischer Apfel.</Description>
+        <ModelPath>apfel/apfel.g3db</ModelPath>
+        <Icon>Consumable/apfel_icon.png</Icon>
+        <Stat>HEALTHRESTORE,5</Stat>
+    </Consumable>
+
+    <Consumable>
+        <Name>Gebratenes Fleisch</Name>
+        <Description>
+            Mmmm! Ein saftiges Stück Fleisch!
+        </Description>
+        <ModelPath>gebratenes_fleisch/gebratenes_fleisch.g3db</ModelPath>
+        <Icon>Consumable/gebratenesFleisch_icon.png</Icon>
+        <Stat>HEALTHRESTORE,7</Stat>
+    </Consumable>
+
+    <Consumable>
+        <Name>Rohes Fleisch</Name>
+        <Description>
+            Wer isst schon rohes Fleisch?
+        </Description>
+        <ModelPath>rohes_fleisch/rohes_fleisch.g3db</ModelPath>
+        <Icon>Consumable/rohesFleisch_icon.png</Icon>
+        <Stat>HEALTHRESTORE,1</Stat>
+    </Consumable>
+
+    <Consumable>
+        <Name>Bier</Name>
+        <Description>
+            Erstmal ein kühles Bier!
+        </Description>
+        <ModelPath>bier/bier.g3db</ModelPath>
+        <Icon>Consumable/bier_icon.png</Icon>
+        <Stat>HEALTHRESTORE,5</Stat>
+    </Consumable>
+
+    <Consumable>
+        <Name>Wein</Name>
+        <Description>
+            Wein doch nicht.
+        </Description>
+        <ModelPath>wein/wein.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+        <Stat>HEALTHRESTORE,5</Stat>
+    </Consumable>
+
+</ConsumableList>

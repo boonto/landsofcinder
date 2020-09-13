@@ -1,0 +1,112 @@
+<SoundList>
+    <SoundFileList>
+        <SoundFile name="human_damage_taken_1">fight/human_damage_taken/1.ogg</SoundFile>
+        <SoundFile name="human_damage_taken_2">fight/human_damage_taken/2.ogg</SoundFile>
+        <SoundFile name="human_damage_taken_3">fight/human_damage_taken/3.ogg</SoundFile>
+
+        <SoundFile name="bandit_killed">fight/human_damage_taken/das_hat_wehgetan.ogg</SoundFile>
+
+        <SoundFile name="dialog_haendler_1">dialog/haendler/schau_ware_an.ogg</SoundFile>
+        <SoundFile name="dialog_haendler_2">dialog/haendler/immer_wieder_gerne.ogg</SoundFile>
+
+        <SoundFile name="dialog_magier">dialog/haendler/einspruch.ogg</SoundFile>
+        <SoundFile name="dialog_wache">dialog/haendler/umgangston.ogg</SoundFile>
+
+        <SoundFile name="geld">ambient/geld.ogg</SoundFile>
+        <SoundFile name="inventar">ambient/inventar.ogg</SoundFile>
+        <SoundFile name="quest_update">ambient/quest_update.ogg</SoundFile>
+
+        <SoundFile name="Mann mit Hut">dialog/taverne/bier/erstmal_ein_kuehles_bier.ogg</SoundFile>
+        <SoundFile name="Mann mit Hut">dialog/taverne/bier/oh_ja_so_gut.ogg</SoundFile>
+
+        <SoundFile name="dialog_barkeeper_1">dialog/taverne/barkeeper/brief_fuer_dich.ogg</SoundFile>
+
+
+    </SoundFileList>
+    <Sound>
+        <Event>
+            <Type>FETCH_EVENT</Type>
+        </Event>
+        <SoundFile>inventar</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>QUEST_EVENT</Type>
+        </Event>
+        <SoundFile>quest_update</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+
+            <Type>TALK_EVENT</Type>
+            <Argument>Reicher Mann</Argument>
+        </Event>
+        <SoundFile>geld</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Wichtige Person</Argument>
+        </Event>
+        <SoundFile>quest_update</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Barkeeper</Argument>
+        </Event>
+        <SoundFile>dialog_barkeeper_1</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Reicher Mann</Argument>
+        </Event>
+        <SoundFile>geld</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>ATTACK_EVENT</Type>
+        </Event>
+        <SoundFile>human_damage_taken_1</SoundFile>
+        <SoundFile>human_damage_taken_2</SoundFile>
+        <SoundFile>human_damage_taken_3</SoundFile>
+    </Sound>
+    <Sound>
+        <Event>
+            <Type>KILL_EVENT</Type>
+            <Argument>Bandit</Argument>
+        </Event>
+        <SoundFile>bandit_killed</SoundFile>
+    </Sound>
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Kaufmann</Argument>
+        </Event>
+        <SoundFile>dialog_haendler_1</SoundFile>
+        <SoundFile>dialog_haendler_2</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Magier</Argument>
+        </Event>
+        <SoundFile>dialog_magier</SoundFile>
+    </Sound>
+
+    <Sound>
+        <Event>
+            <Type>TALK_EVENT</Type>
+            <Argument>Wache</Argument>
+        </Event>
+        <SoundFile>dialog_wache</SoundFile>
+    </Sound>
+</SoundList>

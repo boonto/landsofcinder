@@ -1,0 +1,10 @@
+<TileList>
+    <Tile>
+        <Name>River_Bridge_Tile</Name>
+        <ModelPath>river_bridge_tile/river_bridge_tile.g3db</ModelPath>
+        <Icon>keinIcon_icon.png</Icon>
+        <Size>2,2</Size>
+        <Height>10;10;10;10;</Height>
+        <Fields>1;1;0;0;</Fields>
+    </Tile>
+</TileList>

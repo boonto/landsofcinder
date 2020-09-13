@@ -1,0 +1,23 @@
+<EmptyList>
+
+    <Empty>
+        <Name>LevelChange</Name>
+        <Icon>keinicon_icon.png</Icon>
+    </Empty>
+
+    <Empty>
+        <Name>Light</Name>
+        <Icon>keinicon_icon.png</Icon>
+    </Empty>
+
+    <Empty>
+        <Name>Commentary</Name>
+        <Icon>keinicon_icon.png</Icon>
+    </Empty>
+
+    <Empty>
+        <Name>OnlineContent</Name>
+        <Icon>keinicon_icon.png</Icon>
+    </Empty>
+
+</EmptyList>

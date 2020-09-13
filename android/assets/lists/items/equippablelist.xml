@@ -1,0 +1,68 @@
+<EquippableList>
+
+    <Equippable>
+        <Name>Schmiedehammer</Name>
+        <Description>Macht immer Aua.</Description>
+        <ModelPath>schmiedehammer/schmiedehammer.g3db</ModelPath>
+        <Icon>Equippable/schmiedehammer_icon.png</Icon>
+        <Equipment>WEAPON_RIGHT</Equipment>
+        <Stat>DAMAGE,2</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Schwert</Name>
+        <Description>Ein scharfe Klinge.</Description>
+        <ModelPath>schwert/schwert.g3db</ModelPath>
+        <Icon>Equippable/schwert_icon.png</Icon>
+        <Equipment>WEAPON_RIGHT</Equipment>
+        <Stat>DAMAGE,5</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Hut</Name>
+        <Description>
+            Ein wirklich schicker Hut!
+        </Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>Equippable/hut_icon.png</Icon>
+        <Equipment>ARMOR_HEAD</Equipment>
+        <Stat>ARMOUR,1</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Lederjacke</Name>
+        <Description>Du fühlst dich schon ein wenig selbstbewusster...</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>Equippable/lederjacke_icon.png</Icon>
+        <Equipment>ARMOR_CHEST</Equipment>
+        <Stat>ARMOUR,5</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Stulpen aus Stoff</Name>
+        <Description>Nicht geeignet für eine Schneeballschlacht.</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>Equippable/stoffstulpen_icon.png</Icon>
+        <Equipment>ARMOR_HANDS</Equipment>
+        <Stat>ARMOUR,3</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Lederhose</Name>
+        <Description>Die gute alte Lederhose.</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>Equippable/lederhose_icon.png</Icon>
+        <Equipment>ARMOR_LEGS</Equipment>
+        <Stat>ARMOUR,3</Stat>
+    </Equippable>
+
+    <Equippable>
+        <Name>Stiefel</Name>
+        <Description>Ein Paar Stiefel. Gut für lange Reisen.</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>Equippable/stiefel_icon.png</Icon>
+        <Equipment>ARMOR_FEET</Equipment>
+        <Stat>ARMOUR,3</Stat>
+    </Equippable>
+
+</EquippableList>

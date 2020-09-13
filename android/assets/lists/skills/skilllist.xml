@@ -1,0 +1,39 @@
+<SkillList>
+
+    <Skill>
+        <Name>Attack</Name> <!--Nicht verändern-->
+        <GameName>Angriff des Todes</GameName>
+        <MinDamage>2</MinDamage>
+        <MaxDamage>5</MaxDamage>
+        <Icon>keinIcon_Icon.png</Icon>
+    </Skill>
+
+    <Skill>
+        <Name>Uppercut</Name> <!--Nicht verändern-->
+        <GameName>Mächtiger Uppercut></GameName>
+        <MinDamage>1</MinDamage>
+        <MaxDamage>3</MaxDamage>
+        <ArmorReduction>50</ArmorReduction>
+        <Icon>keinIcon_Icon.png</Icon>
+    </Skill>
+
+    <Skill>
+        <Name>Dampfstrahl</Name> <!--Nicht verändern-->
+        <GameName>Noch nicht implementierter Dampfstrahl des Todes</GameName>
+        <MinDamage>1</MinDamage>
+        <MaxDamage>3</MaxDamage>
+        <GroupDamage>0</GroupDamage>
+        <SteamCost>20</SteamCost>
+        <Icon>keinIcon_Icon.png</Icon>
+    </Skill>
+
+    <Skill>
+        <Name>Biss</Name> <!--Nicht verändern-->
+        <GameName>Böser Biss</GameName>
+        <MinDamage>2</MinDamage>
+        <MaxDamage>5</MaxDamage>
+        <ArmorReduction>10</ArmorReduction>
+        <Icon>keinIcon_Icon.png</Icon>
+    </Skill>
+
+</SkillList>

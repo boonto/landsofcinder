@@ -1,0 +1,22 @@
+<ChestList>
+    <Chest>
+        <Name>Truhe</Name>
+        <Description>Kann Gegenstände enthalten</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+    </Chest>
+
+    <Chest>
+        <Name>Brunos Stiefel</Name>
+        <Description>Riechen widerlich...</Description>
+        <ModelPath>stiefel/stiefel.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+    </Chest>
+
+    <Chest>
+        <Name>Brunos Eimerversteck</Name>
+        <Description>Raffiniert!</Description>
+        <ModelPath>eimer/eimer.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+    </Chest>
+</ChestList>

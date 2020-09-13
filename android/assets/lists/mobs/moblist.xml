@@ -1,0 +1,56 @@
+<MobList>
+
+    <Mob>
+        <Name>Wolf</Name>
+        <ModelPath>wolf/wolf.g3db</ModelPath>
+        <Level>1</Level>
+        <Health>5</Health>
+        <Attack>10</Attack>
+        <Defense>0</Defense>
+        <Strength>10</Strength>
+        <Knowledge>0</Knowledge>
+        <MaxSteam>0</MaxSteam>
+        <MaxActions>3</MaxActions>
+        <Icon>Mob/wolf_icon.png</Icon>
+        <SkillList>
+            <Skill>Biss</Skill>
+        </SkillList>
+    </Mob>
+
+    <Mob>
+        <Name>Alter Bandit</Name>
+        <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+        <Level>2</Level>
+        <Health>30</Health>
+        <Attack>15</Attack>
+        <Defense>15</Defense>
+        <Strength>15</Strength>
+        <Knowledge>0</Knowledge>
+        <MaxSteam>0</MaxSteam>
+        <MaxActions>3</MaxActions>
+        <Icon>Mob/altermannRot_icon.png</Icon>
+        <SkillList>
+            <Skill>Attack</Skill>
+            <Skill>Uppercut</Skill>
+        </SkillList>
+    </Mob>
+
+    <Mob>
+        <Name>Bandit mit Hut</Name>
+        <ModelPath>hutmann/hutmann.g3db</ModelPath>
+        <Level>3</Level>
+        <Health>40</Health>
+        <Attack>20</Attack>
+        <Defense>20</Defense>
+        <Strength>20</Strength>
+        <Knowledge>0</Knowledge>
+        <MaxSteam>0</MaxSteam>
+        <MaxActions>3</MaxActions>
+        <Icon>Mob/hutmann_icon.png</Icon>
+        <SkillList>
+            <Skill>Attack</Skill>
+            <Skill>Uppercut</Skill>
+        </SkillList>
+    </Mob>
+
+</MobList>

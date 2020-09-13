@@ -1,0 +1,21 @@
+<PlayerList>
+    <Player>
+        <Name>Player</Name>
+        <ModelPath>player/player.g3db</ModelPath>
+        <EntityState>0</EntityState>
+        <Level>1</Level>
+        <Health>50</Health>
+        <Attack>10</Attack>
+        <Defense>10</Defense>
+        <Strength>5</Strength>
+        <Knowledge>5</Knowledge>
+        <MaxSteam>100</MaxSteam>
+        <MaxActions>3</MaxActions>
+        <Icon>player/player_icon.png</Icon>
+        <SkillList>
+            <Skill>Attack</Skill>
+            <Skill>Uppercut</Skill>
+            <Skill>Dampfstrahl</Skill>
+        </SkillList>
+    </Player>
+</PlayerList>

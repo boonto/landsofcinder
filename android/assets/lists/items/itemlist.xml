@@ -1,0 +1,80 @@
+<ItemList>
+
+    <Item>
+        <Name>Kohle</Name>
+        <Description>Ein schwarzer, staubender Brocken.</Description>
+        <ModelPath>kohle/kohle.g3db</ModelPath>
+        <Icon>Item/kohle_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Schraubenschlüssel</Name>
+        <Description>Das bevorzugte Mittel eines Ingenieurs.</Description>
+        <ModelPath>schraubenschluessel/schraubenschluessel.g3db</ModelPath>
+        <Icon>item/schraubenschluessel_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Zange</Name>
+        <Description>Steckst du in der Klemme?</Description>
+        <ModelPath>zange/zange.g3db</ModelPath>
+        <Icon>item/zange_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Behälter Mit Utensilien</Name>
+        <Description>Pinsel, Feile, Pinzette - Alles ist dabei!</Description>
+        <ModelPath>behaelter_mit_utensilien/behaelter_mit_utensilien.g3db</ModelPath>
+        <Icon>item/behaelterMitUtensilien_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Kleiner Hammer</Name>
+        <Description>Als Waffe nicht zu gebrauchen, aber zur Arbeit bestens geeignet.</Description>
+        <ModelPath>kleiner_hammer/kleiner_hammer.g3db</ModelPath>
+        <Icon>item/kleinerHammer_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Kleines Zahnrad</Name>
+        <Description>Bestimmt das fehlende Stück!</Description>
+        <ModelPath>kleines_zahnrad/kleines_zahnrad.g3db</ModelPath>
+        <Icon>item/kleinesZahnrad_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Öllampe</Name>
+        <Description>Bringt Licht ins Dunkel.</Description>
+        <ModelPath>oellampe/oellampe.g3db</ModelPath>
+        <Icon>item/oellampe_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Gold</Name>
+        <Description>Immer gut welches zu haben!</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Notizen</Name>
+        <Description>Die Rechtschreibung lässt zu wünschen übrig.</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>item/notizen_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Brunos Diamant</Name>
+        <Description>Sieht ziemlich wertvoll aus...</Description>
+        <ModelPath>truhe/truhe.g3db</ModelPath>
+        <Icon>item/diamant_icon.png</Icon>
+    </Item>
+
+    <Item>
+        <Name>Kerze</Name>
+        <Description>Macht Licht. Toll!</Description>
+        <ModelPath>kerze/kerze.g3db</ModelPath>
+        <Icon>keinicon_icon.png</Icon>
+    </Item>
+
+</ItemList>
