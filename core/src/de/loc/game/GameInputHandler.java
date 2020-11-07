@@ -181,7 +181,7 @@ public class GameInputHandler extends InputHandler {
     }
 
     @Override
-    public boolean scrolled(int amount) {
+    public boolean scrolled(float amountX, float amountY) {
         return false;
     }
 

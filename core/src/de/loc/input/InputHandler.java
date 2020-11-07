@@ -108,11 +108,11 @@ public abstract class InputHandler implements InputProcessor, GestureDetector.Ge
     }
 
     @Override
-    public boolean scrolled(int amount) {
+    public boolean scrolled(float amountX, float amountY) {
         float scaleFactor = 1.0f;
-        if ( amount == 1 ) {
+        if ( amountY == 1 ) {
             scaleFactor = 1.1f;
-        } else if ( amount == -1 ) {
+        } else if ( amountY == -1 ) {
             scaleFactor = 0.9f;
         }
 
