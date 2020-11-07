@@ -1,0 +1,46 @@
+<Quest>
+    <QuestName>Grosse Wunder, kleines Werkzeug</QuestName>
+    <Description>
+        Onkel Rufus möchte dass ich ihm seinen Schraubenschlüssel besorge. Er sollte im Keller bei den anderen Werkzeugen liegen.
+
+    </Description>
+    <Dialog>
+        /npcs/onkel_rufus/rufus_dialog_01_grosse_wunder.dialog
+    </Dialog>
+    <QuestEvents>
+        <QuestEvent>
+            <Description>Da haben wir ja das gute Stück.</Description>
+            <GoalEvent Anzahl="1">
+                <Event>
+                    <Type>FETCH_EVENT</Type>
+                    <Argument>Schraubenschlüssel</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>CLIENT_NAME</Argument>
+                    <Argument>
+                        /npcs/onkel_rufus/rufus_dialog_02_grosse_wunder.dialog
+                    </Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>Ich soll die Kisten in die Stadt bringen. Na dann los!</Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>CLIENT_NAME</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>CLIENT_NAME</Argument>
+                    <Argument>/npcs/onkel_rufus/rufus_dialog_03_grosse_wunder.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+    </QuestEvents>
+</Quest>

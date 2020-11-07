@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Mann mit Hut</Name>
+    <ModelPath>hutmann/hutmann.g3db</ModelPath>
+    <Icon>npc/gesichthutmann_icon.png</Icon>
+    <Dialog>Siehst du meinen tollen Hut?</Dialog>
+    <HP>20</HP>
+</Npc>

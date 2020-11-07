@@ -1,0 +1,44 @@
+<DialogSheet>
+	<ID>rufus_dialog_01_grosse_wunder</ID>
+	<Dialogs>
+		<Dialog>
+			<Text>
+			    Gut dass du da bist, Junge. Ich habe schon auf dich gewartet.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+			   Hallo Onkel!
+			</Text>
+		</Dialog>
+		<Dialog> 
+			<Text>
+			    Es ist wieder so weit, die nächste Lieferung für die Stadt ist fällig. 
+			    Unsere neuen Herrscher sind streng und ich möchte heute noch etwas zu essen bekommen. 
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Sind die Kisten alle vollständig? Dann bringe ich sie sofort nach Abitia. Ich wollte mich dort sowieso noch 
+				nach ein paar Bauteilen umsehen. 
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Text>
+			     Die Kisten sind alle gefüllt. Ich muss sie nur noch für den Transport fertig machen.
+			     Sei doch so gut und hol mir meinen Schraubenschlüssel aus dem Keller.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+			    Bin unterwegs!
+			</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

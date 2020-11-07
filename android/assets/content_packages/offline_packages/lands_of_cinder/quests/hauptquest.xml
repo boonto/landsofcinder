@@ -1,0 +1,150 @@
+<Quest>
+    <QuestName>Hauptquest</QuestName>
+    <Description>
+        Onkel Rufus moechte dass ich ihm seinen Schraubenschluessel besorge. Er sollte im Keller bei den anderen Werkzeugen liegen.
+    </Description>
+    <Dialog>/npcs/onkel_rufus/rufus_dialog_01_grosse_wunder.dialog</Dialog>
+    <QuestEvents>
+        <QuestEvent>
+            <Description>Da haben wir ja das gute Stueck.</Description>
+            <GoalEvent Anzahl="1">
+                <Event>
+                    <Type>FETCH_EVENT</Type>
+                    <Argument>Schraubenschlüssel</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Onkel Rufus</Argument>
+                    <Argument>/npcs/onkel_rufus/rufus_dialog_02_grosse_wunder.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>Ich soll die Kisten in die Stadt bringen. Na dann los!</Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Onkel Rufus</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Onkel Rufus</Argument>
+                    <Argument>/npcs/onkel_rufus/rufus_dialog_03_grosse_wunder.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Bruno</Argument>
+                    <Argument>/npcs/bruno/bruno_essenslieferung_1.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>
+                Der Aufseher von Abitia weigert sich mir die Essenslieferung auszuhaendigen. Ich muss mir etwas ueberlegen...
+            </Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Bruno</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Barkeeper</Argument>
+                    <Argument>/npcs/barkeeper/barkeeper_nach_bruno_1.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Bruno</Argument>
+                    <Argument>/npcs/bruno/bruno_2.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>Der Barkeeper sagt, ich soll mal mit dem Typ in der Ecke reden.</Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Barkeeper</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Hubert</Argument>
+                    <Argument>/npcs/hubert/hubert_1.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Barkeeper</Argument>
+                    <Argument>/npcs/barkeeper/barkeeper_2.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>
+                Hubert sagt, ich soll in Brunos Haus einsteigen und nach belastbaren Material suchen.
+            </Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Hubert</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Hubert</Argument>
+                    <Argument>/npcs/hubert/hubert_1_05.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>
+                Ich habe einen Diamanten in Brunos Haus gefunden. Sieht wertvoll aus! Mal schauen, was Hubert dazu sagt...
+            </Description>
+            <GoalEvent Anzahl="1">
+                <Event>
+                    <Type>FETCH_EVENT</Type>
+                    <Argument>Brunos Diamant</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Hubert</Argument>
+                    <Argument>/npcs/hubert/hubert_2.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+        <QuestEvent>
+            <Description>
+                Hubert war begeistert! Ich bin gespannt, wie sich das Ganze jetzt entwickelt!
+            </Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Hubert</Argument>
+                </Event>
+            </GoalEvent>
+            <TriggerEvent>
+                <Event>
+                    <Type>ADD_DIALOG</Type>
+                    <Argument>Hubert</Argument>
+                    <Argument>/npcs/hubert/hubert_03_01.dialog</Argument>
+                </Event>
+            </TriggerEvent>
+        </QuestEvent>
+    </QuestEvents>
+</Quest>

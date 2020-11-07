@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Barkeeper</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+    <Dialog>Komm, trink ein Bier!</Dialog>
+    <HP>35</HP>
+</Npc>

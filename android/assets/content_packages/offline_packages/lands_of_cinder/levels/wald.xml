@@ -1,0 +1,272 @@
+<Scene>
+    <DirectionLightPosition X="10.6" Y="20.0" Z="-6.6000004" />
+    <Sound>
+        <AmbientMusic>nature_ambient.ogg</AmbientMusic>
+    </Sound>
+    <Background backgroundWidth="20.0">wald.png</Background>
+    <Grid rowValue="29" columnValue="29">
+        <Row ID="0">
+            64;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="1">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="2">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="3">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="4">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;32;32;32;32;32;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="5">
+            96;96;96;96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="6">
+            96;96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="7">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;96;64;32;32;32;32;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="8">
+            96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;96;96;32;32;32;32;32;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="9">
+            96;96;96;96;96;96;96;32;32;32;32;32;32;32;64;96;96;96;32;32;32;32;32;96;96;96;96;96;96;
+        </Row>
+        <Row ID="10">
+            96;96;96;96;96;96;96;32;32;32;32;64;32;32;96;96;96;96;64;32;32;32;32;32;96;96;96;96;96;
+        </Row>
+        <Row ID="11">
+            96;96;96;96;96;96;32;32;32;32;32;96;96;64;96;96;96;96;96;96;32;32;32;32;96;96;96;96;96;
+        </Row>
+        <Row ID="12">
+            96;96;96;96;32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;64;96;32;32;32;32;96;96;96;96;
+        </Row>
+        <Row ID="13">
+            96;96;96;32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;96;96;96;32;32;32;32;32;96;96;
+        </Row>
+        <Row ID="14">
+            96;96;32;32;32;32;32;32;32;64;96;96;64;64;96;96;96;64;96;96;96;96;96;32;32;32;32;32;96;
+        </Row>
+        <Row ID="15">
+            96;32;32;32;32;32;32;32;32;96;96;64;96;96;96;96;96;96;96;96;96;96;64;96;32;32;32;32;32;
+        </Row>
+        <Row ID="16">
+            96;32;32;32;32;32;32;32;96;96;64;96;64;96;96;96;96;64;96;64;64;64;96;96;96;32;32;32;32;
+        </Row>
+        <Row ID="17">
+            96;32;32;32;32;32;32;32;96;96;64;96;96;96;96;96;96;96;96;96;64;96;96;96;96;64;96;32;32;
+        </Row>
+        <Row ID="18">
+            96;96;32;32;32;32;96;64;64;96;96;96;96;96;96;96;96;96;96;96;64;96;96;96;96;96;32;32;32;
+        </Row>
+        <Row ID="19">
+            96;96;96;32;32;32;96;96;96;96;96;96;96;96;96;64;96;96;96;96;64;96;96;96;96;32;32;32;32;
+        </Row>
+        <Row ID="20">
+            96;96;96;96;32;32;32;64;96;96;96;96;96;96;96;96;96;96;96;96;96;96;64;96;32;32;32;32;96;
+        </Row>
+        <Row ID="21">
+            96;96;96;96;96;32;32;32;96;96;96;96;96;64;96;96;96;96;96;96;96;96;96;32;32;32;32;96;96;
+        </Row>
+        <Row ID="22">
+            96;96;96;96;96;96;32;32;32;96;96;96;96;96;96;96;96;96;96;96;96;64;32;32;32;32;96;96;96;
+        </Row>
+        <Row ID="23">
+            96;96;96;96;96;96;96;32;32;32;64;96;96;96;64;96;96;96;96;96;96;32;32;32;32;96;96;96;96;
+        </Row>
+        <Row ID="24">
+            96;96;96;96;96;96;96;96;32;32;32;96;96;96;96;96;64;96;64;96;32;32;32;32;32;96;96;96;96;
+        </Row>
+        <Row ID="25">
+            96;96;96;96;96;96;96;96;96;32;32;32;96;96;96;96;96;96;96;32;32;32;32;96;96;96;96;96;96;
+        </Row>
+        <Row ID="26">
+            96;96;96;96;96;96;96;96;96;96;32;32;32;64;96;64;96;96;32;32;32;32;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="27">
+            96;96;96;96;96;96;96;96;96;96;96;32;32;32;96;96;96;32;32;32;32;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="28">
+            96;96;96;96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;
+        </Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="21" PosY="22" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="10" PosY="17" />
+            <TypeComponent Name="Baum 1">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="12" PosY="14" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="10" PosY="16" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="4">
+            <PositionComponent PosX="13" PosY="14" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="5">
+            <PositionComponent PosX="11" PosY="10" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="6">
+            <PositionComponent PosX="8" PosY="18" />
+            <TypeComponent Name="Baum 5">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="7">
+            <PositionComponent PosX="18" PosY="10" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="8">
+            <PositionComponent PosX="20" PosY="16" />
+            <TypeComponent Name="Baumstämme">OBJECT</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="9">
+            <PositionComponent PosX="21" PosY="16" />
+            <TypeComponent Name="Baum 4">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="10">
+            <PositionComponent PosX="19" PosY="12" />
+            <TypeComponent Name="Baum 3">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="11">
+            <PositionComponent PosX="12" PosY="16" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="12">
+            <PositionComponent PosX="22" PosY="20">
+                <Translation X="2.5433846" Y="1.0000001" Z="2.5723069" />
+                <Scale X="1.9292303" Y="1.0" Z="2.143589" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>waldhaus.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="13">
+            <PositionComponent PosX="22" PosY="15" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="14">
+            <PositionComponent PosX="16" PosY="7" />
+            <TypeComponent Name="Mann mit Hut">NPC</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <QuestComponent>quests/diebensbande_von_abitia.xml</QuestComponent>
+        </Entity>
+        <Entity ID="15">
+            <PositionComponent PosX="13" PosY="11" />
+            <TypeComponent Name="Felsen">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="16">
+            <PositionComponent PosX="17" PosY="14" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="17">
+            <PositionComponent PosX="17" PosY="16" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="18">
+            <PositionComponent PosX="13" PosY="21" />
+            <TypeComponent Name="Wolf">MOB</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="19">
+            <PositionComponent PosX="15" PosY="19" />
+            <TypeComponent Name="Wegweiser">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="20">
+            <PositionComponent PosX="16" PosY="24" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="21">
+            <PositionComponent PosX="14" PosY="23" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="22">
+            <PositionComponent PosX="18" PosY="24" />
+            <TypeComponent Name="Baum 4">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="23">
+            <PositionComponent PosX="15" PosY="26" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="24">
+            <PositionComponent PosX="19" PosY="16" />
+            <TypeComponent Name="Apfel">CONSUMABLE</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="25">
+            <PositionComponent PosX="13" PosY="26" />
+            <TypeComponent Name="Felsen">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="26">
+            <PositionComponent PosX="7" PosY="18" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="27">
+            <PositionComponent PosX="7" PosY="20" />
+            <TypeComponent Name="Baum 4">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="28">
+            <PositionComponent PosX="25" PosY="17" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="29">
+            <PositionComponent PosX="10" PosY="23">
+                <Translation X="1.7222426" Y="0.27017105" Z="3.1291194" />
+                <Scale X="1.531579" Y="0.32330754" Z="2.8531172" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>abitia_tor.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="30">
+            <PositionComponent PosX="14" PosY="9">
+                <Translation X="1.4172488" Y="0.9899999" Z="1.4172488" />
+                <Scale X="1.7715611" Y="0.99" Z="1.7715611" />
+            </PositionComponent>
+            <TypeComponent Name="OnlineContent">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="31">
+            <PositionComponent PosX="9" PosY="14" />
+            <TypeComponent Name="Klohäusschen">OBJECT</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

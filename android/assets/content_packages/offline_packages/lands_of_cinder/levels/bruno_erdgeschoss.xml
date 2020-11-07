@@ -1,0 +1,43 @@
+<Scene>
+    <DirectionLightPosition X="0.0" Y="0.0" Z="0.0" />
+    <Sound />
+    <Background backgroundWidth="10.0">brunos_haus_erdgeschoss_leer.png</Background>
+    <Grid rowValue="11" columnValue="11">
+        <Row ID="0">32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="5">32;32;32;32;32;32;32;32;64;32;32;</Row>
+        <Row ID="6">32;32;32;32;32;32;32;32;96;32;32;</Row>
+        <Row ID="7">32;32;32;32;32;32;96;96;96;32;32;</Row>
+        <Row ID="8">32;32;32;32;32;32;64;96;64;32;32;</Row>
+        <Row ID="9">32;32;32;32;32;32;64;32;32;32;32;</Row>
+        <Row ID="10">32;32;32;32;32;32;32;32;32;32;32;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="6" PosY="8" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="6" PosY="9">
+                <Translation X="0.0" Y="0.20000002" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>brunos_haus_von_vorne.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="8" PosY="5">
+                <Translation X="0.0" Y="0.2" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>bruno_obergeschoss.xml</LevelChangeComponent>
+        </Entity>
+    </EntityList>
+</Scene>

@@ -1,0 +1,108 @@
+<DialogSheet>
+	<ID>bruno_essenslieferung_1</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Was willst du kleiner Zwerg? Verschwinde!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Bist du hier der Aufseher?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Werd mal nicht frech. Natürlich bin ich der Aufseher! Siehst du nicht wie alle hier ehrfürchtig zu mir aufschauen?
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Ähh</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Also was ist jetzt? Verschwende nicht meine Zeit!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Ich habe hier die monatliche Kohlelieferung von Rufus.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Hahaha, ist der alte Mann schon so schwach, dass er es nicht mehr selbst bis hier her schafft? 
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ha! Naja egal, gib' schon her.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Und jetzt verschwinde!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Moment mal!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Was ist mit meiner Essenslieferung?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Achso ja... </Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>DIE GIBTS NICHT!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Wie bitte???</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Du hast mich schon verstanden!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>bruno</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Und wenn du nicht sofort verschwindest, darfst du die Nacht heute in der Zelle verbringen!
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>
+				*zu sich selbst* Das lief ja hervorragend... Mist! Ich sollte mir schleunigst etwas einfallen lassen...
+			</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

@@ -1,0 +1,17 @@
+<DialogSheet>
+	<ID>Rufus_Dialog_03_Grosse_Wunder</ID>
+	<Dialogs>
+		<Dialog>
+			<Text>
+			   Mach dich jetzt auf den Weg! Mir knurrt der Magen!
+			</Text>
+		</Dialog>
+		<Dialog> 
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+			    Bin schon weg!
+			</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

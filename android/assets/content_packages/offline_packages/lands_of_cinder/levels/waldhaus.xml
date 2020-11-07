@@ -1,0 +1,276 @@
+<Scene>
+    <DirectionLightPosition X="12.0" Y="15.0" Z="0.0" />
+    <Sound>
+        <AmbientMusic>taverne_ambient.ogg</AmbientMusic>
+        <CombatMusic>loc_main_theme.ogg</CombatMusic>
+    </Sound>
+    <Background backgroundWidth="28.0">waldhaus.png</Background>
+    <Grid rowValue="33" columnValue="33">
+        <Row ID="0">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="1">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="2">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="3">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="4">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="5">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="6">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="7">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="8">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="9">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="10">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="11">
+            96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;
+        </Row>
+        <Row ID="12">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="13">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="14">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="15">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="16">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;64;64;96;96;96;96;96;96;96;64;96;32;
+        </Row>
+        <Row ID="17">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;96;96;64;96;96;96;64;64;64;64;64;32;
+        </Row>
+        <Row ID="18">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;64;96;96;96;96;96;96;96;96;96;64;32;
+        </Row>
+        <Row ID="19">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;96;96;64;96;64;96;96;96;96;96;64;96;
+        </Row>
+        <Row ID="20">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;64;96;96;96;96;96;96;96;96;96;96;32;
+        </Row>
+        <Row ID="21">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;96;96;96;96;96;64;96;64;96;96;96;96;96;96;96;96;96;64;32;
+        </Row>
+        <Row ID="22">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;64;32;32;32;
+        </Row>
+        <Row ID="23">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;64;96;96;96;64;96;96;64;96;96;96;96;96;96;96;96;32;32;32;32;
+        </Row>
+        <Row ID="24">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;64;64;96;96;96;96;96;96;96;96;96;96;96;96;64;32;32;32;32;32;
+        </Row>
+        <Row ID="25">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;64;96;96;96;96;96;96;96;96;96;96;96;64;32;32;32;32;32;32;
+        </Row>
+        <Row ID="26">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;64;64;64;96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="27">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;64;96;96;96;96;64;64;96;96;96;64;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="28">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;96;96;96;96;96;96;96;96;96;64;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="29">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;96;96;64;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="30">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;96;96;64;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="31">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;96;96;96;96;64;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+        <Row ID="32">
+            96;96;96;96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;
+        </Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="16" PosY="30" />
+            <TypeComponent Name="Wegweiser">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="20" PosY="23" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="19" PosY="21">
+                <Translation X="-0.9000001" Y="0.0" Z="-2.2324526" />
+                <Scale X="1.0" Y="1.594405" Z="0.38742042" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>Erdgeschoss.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="29" PosY="22" />
+            <TypeComponent Name="Felsen">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="4">
+            <PositionComponent PosX="17" PosY="31">
+                <Translation X="5.917965" Y="1.0000001" Z="3.7727168" />
+                <Scale X="5.559919" Y="1.0" Z="2.357948" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>Wald.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="5">
+            <PositionComponent PosX="17" PosY="23" />
+            <TypeComponent Name="Onkel Rufus">NPC</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <QuestComponent>quests/hauptquest.xml</QuestComponent>
+        </Entity>
+        <Entity ID="6">
+            <PositionComponent PosX="15" PosY="26" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="7">
+            <PositionComponent PosX="13" PosY="24" />
+            <TypeComponent Name="Baum 4">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="8">
+            <PositionComponent PosX="13" PosY="23" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="9">
+            <PositionComponent PosX="14" PosY="27" />
+            <TypeComponent Name="Baumstämme">OBJECT</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="10">
+            <PositionComponent PosX="25" PosY="19">
+                <Translation X="0.0" Y="-1.4901161E-8" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="Feuerstelle">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+            <ParticleComponent X="25.0" Y="19.0" Z="0">feuer2.pfx</ParticleComponent>
+        </Entity>
+        <Entity ID="11">
+            <PositionComponent PosX="27" PosY="17" />
+            <TypeComponent Name="Baumstämme">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="12">
+            <PositionComponent PosX="30" PosY="16" />
+            <TypeComponent Name="Baum 3">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="13">
+            <PositionComponent PosX="22" PosY="16" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="14">
+            <PositionComponent PosX="27" PosY="24" />
+            <TypeComponent Name="Baum 2">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="15">
+            <PositionComponent PosX="24" PosY="27" />
+            <TypeComponent Name="Baum 4">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="16">
+            <PositionComponent PosX="26" PosY="25" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="17">
+            <PositionComponent PosX="23" PosY="28">
+                <Scale X="1.3176901" Y="0.97029895" Z="2.357948" />
+            </PositionComponent>
+            <TypeComponent Name="Felsen">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="18">
+            <PositionComponent PosX="31" PosY="19" />
+            <TypeComponent Name="Metallteile">OBJECT</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="19">
+            <PositionComponent PosX="31" PosY="21" />
+            <TypeComponent Name="Kohle">ITEM</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="20">
+            <PositionComponent PosX="19" PosY="25" />
+            <TypeComponent Name="Baum 1">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="21">
+            <PositionComponent PosX="23" PosY="17">
+                <Scale X="1.4494591" Y="0.88209" Z="1.0" />
+            </PositionComponent>
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="22">
+            <PositionComponent PosX="20" PosY="27" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="23">
+            <PositionComponent PosX="21" PosY="20" />
+            <TypeComponent Name="Pilze">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="24">
+            <PositionComponent PosX="21" PosY="21" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="25">
+            <PositionComponent PosX="21" PosY="16" />
+            <TypeComponent Name="Gebratenes Fleisch">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="26">
+            <PositionComponent PosX="16" PosY="29" />
+            <TypeComponent Name="Öllampe">ITEM</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="27">
+            <PositionComponent PosX="21" PosY="18" />
+            <TypeComponent Name="Kohlelore">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="28">
+            <PositionComponent PosX="15" PosY="24">
+                <Scale X="0.28096652" Y="1.0" Z="1.21" />
+            </PositionComponent>
+            <TypeComponent Name="Schwert">EQUIPPABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

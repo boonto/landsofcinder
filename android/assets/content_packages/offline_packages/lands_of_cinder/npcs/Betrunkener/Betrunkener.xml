@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Betrunkener</Name>
+    <ModelPath>hutmann/hutmann.g3db</ModelPath>
+    <Icon>npc/gesichthutmann_icon.png</Icon>
+    <Dialog>Oh ja, das schmeckt so gut!</Dialog>
+    <HP>10</HP>
+</Npc>

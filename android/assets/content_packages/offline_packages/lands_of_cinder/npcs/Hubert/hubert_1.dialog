@@ -1,0 +1,126 @@
+<DialogSheet>
+	<ID>hubert_1</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Hallo!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ähh was? *hicks*</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Bist du der neue Besitzer hier?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ich zahl morgen! *hicks* </Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Wirklich!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>
+				Nein, ich will kein Geld von dir! Ich hab' gehört du warst mal der Aufseher hier?
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Argh, sprich mich nicht darauf an!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Ich habe nämlich so ein kleines Problem mit dem Neuen.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Kannst du nicht mal mit ihm reden?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>HAHAHA *hicks* Wenn ich das Schwein nochmal sehe...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Warum hat er den jetzt deinen Job?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Schwein! So ein Schwein!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Ähm!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Gelinkt hat er mich! *hicks*</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Okay, das klingt sehr bitter, aber...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Aber du kannst mir helfen!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Schau mal was ich hier habe! Der Schlüssel zu seinem Haus.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Das war mal mein Haus! Aber egal.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Ich würde vorschlagen, du steigst da mal ein und siehst dich nach irgendetwas belastbaren um.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Ich habe gehört, dass er Fundstücke einbehält. Wertvolles Zeug, dass die Arbeiter in den Stollen finden.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Wenn wir sowas bei ihm finden, ist er dran! HAHAHA *hicks*</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Ähm, das ging jetzt aber schnell...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Naja, ich werd mal sehen was sich machen lässt!</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

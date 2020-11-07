@@ -1,0 +1,46 @@
+<Scene>
+    <DirectionLightPosition X="0.0" Y="0.0" Z="0.0" />
+    <Sound />
+    <Background backgroundWidth="11.0">bruno_hinterhof.png</Background>
+    <Grid rowValue="12" columnValue="12">
+        <Row ID="0">96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="1">96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="2">96;32;32;32;32;32;32;32;32;32;96;96;</Row>
+        <Row ID="3">96;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;32;96;96;32;32;32;32;32;</Row>
+        <Row ID="5">32;32;32;32;32;96;96;96;96;96;96;96;</Row>
+        <Row ID="6">32;32;32;32;32;96;96;96;96;96;96;96;</Row>
+        <Row ID="7">96;64;96;32;32;32;96;96;96;96;96;96;</Row>
+        <Row ID="8">32;32;96;96;96;32;32;96;96;96;96;96;</Row>
+        <Row ID="9">32;32;32;32;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="10">32;32;32;32;32;32;96;96;96;64;96;96;</Row>
+        <Row ID="11">32;32;32;32;32;32;32;96;64;96;96;96;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="1" PosY="7">
+                <Translation X="0.35431224" Y="0.77808267" Z="0.9801001" />
+                <Scale X="1.7715611" Y="0.77808267" Z="1.089" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>bruno_erdgeschoss.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="8" PosY="11">
+                <Translation X="3.4122896" Y="1.0000001" Z="1.0" />
+                <Scale X="3.452272" Y="1.0" Z="1.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>null</LevelChangeComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="9" PosY="10" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+    </EntityList>
+</Scene>

@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Magier</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermannblau_icon.png</Icon>
+    <Dialog>Dieses Buch ist interessant...</Dialog>
+    <HP>20</HP>
+</Npc>

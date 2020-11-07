@@ -1,0 +1,46 @@
+<Scene>
+    <DirectionLightPosition X="0.0" Y="0.0" Z="0.0" />
+    <Sound />
+    <Background backgroundWidth="9.0">bruno_garten.png</Background>
+    <Grid rowValue="16" columnValue="16">
+        <Row ID="0">96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="1">96;96;96;96;96;96;32;32;32;96;96;96;96;96;96;96;</Row>
+        <Row ID="2">96;96;96;96;96;32;32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="3">96;96;96;96;32;32;32;32;32;32;32;32;96;96;96;96;</Row>
+        <Row ID="4">96;96;96;32;32;32;32;32;32;32;32;32;32;96;96;96;</Row>
+        <Row ID="5">96;96;32;32;32;32;32;32;32;32;32;32;32;32;96;96;</Row>
+        <Row ID="6">96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;96;</Row>
+        <Row ID="7">96;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="8">96;96;32;32;32;32;32;32;32;32;32;96;64;32;32;32;</Row>
+        <Row ID="9">96;96;96;32;32;32;64;96;96;96;96;96;64;32;32;32;</Row>
+        <Row ID="10">96;96;96;32;32;32;64;96;96;96;96;96;32;32;32;96;</Row>
+        <Row ID="11">96;96;96;96;32;32;32;96;96;32;96;32;32;32;96;96;</Row>
+        <Row ID="12">96;96;96;96;96;32;32;32;32;32;32;32;32;96;96;96;</Row>
+        <Row ID="13">96;96;96;96;96;96;32;32;32;32;32;32;96;96;96;96;</Row>
+        <Row ID="14">96;96;96;96;96;96;96;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="15">96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="12" PosY="9" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="12" PosY="8">
+                <Translation X="2.240093" Y="0.9000001" Z="1.3641022" />
+                <Scale X="1.7715611" Y="1.0" Z="1.9487174" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>brunos_haus_von_vorne.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="6" PosY="10"></PositionComponent>
+            <TypeComponent Name="Katze">NPC</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

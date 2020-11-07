@@ -1,0 +1,17 @@
+<Scene>
+    <StartPosition>00</StartPosition>
+    <Background backgroundWidth="12.0">Erdgeschoss.png</Background>
+    <Grid rowValue="10" columnValue="10">
+        <Row ID="0">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="5">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="6">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="7">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="8">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="9">32;32;32;32;32;32;32;32;32;32;</Row>
+    </Grid>
+    <EntityList></EntityList>
+</Scene>

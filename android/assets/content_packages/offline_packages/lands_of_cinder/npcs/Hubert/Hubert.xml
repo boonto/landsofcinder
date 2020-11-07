@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Hubert</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+    <Dialog>Rede mit jemand anderem, ich habe schon genug Probleme...</Dialog>
+    <HP>40</HP>
+</Npc>

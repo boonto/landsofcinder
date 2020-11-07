@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Kaufmann</Name>
+    <ModelPath>hutmann/hutmann.g3db</ModelPath>
+    <Icon>npc/gesichtaltermannlila_icon.png</Icon>
+    <Dialog>Schau dir meine Ware an!</Dialog>
+    <HP>20</HP>
+</Npc>

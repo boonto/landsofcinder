@@ -1,0 +1,9 @@
+<Npc>
+    <Name>Torwache</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+    <Dialog>
+        Geh rein in die Stadt oder verschwinde wieder, aber steh hier nicht im Weg herum!
+    </Dialog>
+    <HP>100</HP>
+</Npc>

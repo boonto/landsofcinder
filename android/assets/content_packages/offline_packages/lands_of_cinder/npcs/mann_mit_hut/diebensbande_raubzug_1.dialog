@@ -1,0 +1,202 @@
+<DialogSheet>
+	<ID>SUPER_TEST_1</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			    Hey du, nicht so schnell!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_normal.png</Icon>
+		</Dialog>
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			   Gib uns das Zeug dass du da mit dir rumschleppst oder es gibt richtig Ärger!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_angry.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Ähm...
+			</Text>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Man Biff, was für eine lächerliche Ansage! So überzeugst du nicht mal ne‘ alte Großmutter! Pass mal auf!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_normal.png</Icon>
+		</Dialog>
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Mann du hässlicher Zwerg, lass dein Zeug rüberwachsen und zwar Dalli!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_angry.png</Icon>
+		</Dialog>
+
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    Ach du Scheiße Jungs, reist euch jetzt gefälligst mal zusammen!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_annoyed.png</Icon>
+		</Dialog>
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    Und du gibst jetzt die Sachen her, oder wir machen dich fertig!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_normal.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			   Genau!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_angry.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Genau!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_angry.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Okay Leute, ihr seid neu in dem Geschäft oder?
+			</Text>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			   Was soll das denn heißen?
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_normal.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Wir sind Profis!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_angry.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    Stimmt genau! Und wenn du nicht tust was wir dir sagen, dann…
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_normal.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Dann...
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_normal.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			    Dann hauen wir dich um!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_angry.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Also das klingt schon ziemlich einschüchternd, das muss ich euch lassen.
+			</Text>
+		</Dialog>		
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Oh, dankeschön!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_smiling.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    Cliff!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_annoyed.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Aber wisst ihr, das passt gerade gar nicht. Ich wollte mich hier eigentlich gleich mit dem Wachaufseher von Abitia treffen…
+			</Text>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    WAS?!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_scared.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				Ja, er ist mal wieder spät dran, … typisch …
+			</Text>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Cliff</Name>
+			<Text>
+			    Verflucht, was machen wir denn jetzt?
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit3_scared.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Biff</Name>
+			<Text>
+			    Man, lasst uns abhauen! Ich hab‘ keinen Bock als Minensklave zu enden!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit1_scared.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>Gerda</Name>
+			<Text>
+			    Stimmt... nichts wie weg!
+			</Text>
+			<Icon>npc/diebesbande_von_abitia/bandit2_scared.png</Icon>
+		</Dialog>
+		
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+				(zu sich selbst) Wahnsinn, was für ein Luschenkommando...
+			</Text>
+		</Dialog>
+
+	</Dialogs>
+</DialogSheet>

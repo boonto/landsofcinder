@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Krieger</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermannrot_icon.png</Icon>
+    <Dialog>Verzieh dich, Bursche!</Dialog>
+    <HP>20</HP>
+</Npc>

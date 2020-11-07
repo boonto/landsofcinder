@@ -1,0 +1,89 @@
+<DialogSheet>
+	<ID>hubert_2</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ähh...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Bist du der neue Besitzer hier???</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ich zahl morgen!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Wirklich wirklich!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>
+				Nein, ich bin der Typ von vorhin! Dem du den Schlüssel zu Brunos Haus gegeben hast.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Bruno?! Dieses Schwein, ich werde ihm...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Was hälst du hier von?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ach du ... *Hicks*</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Wo hast du das her?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Aus Brunos Haus...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ich glaub ich spinne ...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>... das glaub ich aber so langsam auch ...</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				Das ist ja hervorragend! Den wollte er wohl für sich behalten... HAHAHA!
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Dieser Schwachkopf! Er ist sogar noch dümmer als ich dachte!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>hubert</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Damit krigen wir ihn dran! Überlass den Rest mir!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>... Na hoffentlich weiß er, was er tut...</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

@@ -1,0 +1,150 @@
+<Scene>
+    <DirectionLightPosition X="0.0" Y="0.0" Z="0.0" />
+    <Sound />
+    <Background backgroundWidth="20.0">taverne.png</Background>
+    <Grid rowValue="15" columnValue="15">
+        <Row ID="0">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;96;96;96;96;96;96;96;64;96;96;96;</Row>
+        <Row ID="5">32;32;32;32;96;96;64;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="6">32;32;32;32;64;64;64;64;96;96;96;96;96;96;96;</Row>
+        <Row ID="7">32;32;32;32;96;96;96;96;96;96;64;64;96;64;96;</Row>
+        <Row ID="8">32;32;32;32;64;64;96;96;96;96;64;64;64;64;96;</Row>
+        <Row ID="9">32;32;32;32;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="10">32;32;32;32;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="11">32;32;32;32;96;96;96;96;96;96;96;64;96;96;96;</Row>
+        <Row ID="12">32;32;32;32;96;96;96;96;96;96;64;64;64;96;96;</Row>
+        <Row ID="13">32;32;32;32;64;96;96;96;96;96;64;96;96;96;96;</Row>
+        <Row ID="14">32;32;32;32;64;64;96;96;96;96;96;96;96;96;96;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="5" PosY="8" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="4" PosY="6" />
+            <TypeComponent Name="Theke">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="10" PosY="12">
+                <Translation X="0.5" Y="0.8000001" Z="-0.2" />
+            </PositionComponent>
+            <TypeComponent Name="Wein">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="4">
+            <PositionComponent PosX="10" PosY="12" />
+            <TypeComponent Name="Großer Kneipentisch">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="5">
+            <PositionComponent PosX="10" PosY="8" />
+            <TypeComponent Name="Großer Kneipentisch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="6">
+            <PositionComponent PosX="13" PosY="8" />
+            <TypeComponent Name="Großer Kneipentisch">OBJECT</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="10">
+            <PositionComponent PosX="11" PosY="8" />
+            <TypeComponent Name="Betrunkener">NPC</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="11">
+            <PositionComponent PosX="5" PosY="14" />
+            <TypeComponent Name="Hubert">NPC</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="12">
+            <PositionComponent PosX="10" PosY="13" />
+            <TypeComponent Name="Gast">NPC</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+        </Entity>
+        <Entity ID="13">
+            <PositionComponent PosX="4" PosY="8">
+                <Translation X="-0.3089327" Y="1.771561" Z="1.1859208" />
+                <Scale X="0.38742042" Y="1.7715611" Z="1.07811" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>taverne_vorne.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="14">
+            <PositionComponent PosX="6" PosY="5" />
+            <TypeComponent Name="Barkeeper">NPC</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+        <Entity ID="16">
+            <PositionComponent PosX="10" PosY="8">
+                <Translation X="-0.1" Y="0.8000001" Z="-0.4" />
+            </PositionComponent>
+            <TypeComponent Name="Gebratenes Fleisch">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="17">
+            <PositionComponent PosX="10" PosY="8">
+                <Translation X="0.3" Y="0.8000001" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="Apfel">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="18">
+            <PositionComponent PosX="12" PosY="12">
+                <Translation X="-0.9000001" Y="0.8000001" Z="0.2" />
+            </PositionComponent>
+            <TypeComponent Name="Gebratenes Fleisch">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="19">
+            <PositionComponent PosX="10" PosY="12">
+                <Translation X="0.0" Y="0.8000001" Z="0.0" />
+                <Scale X="0.80999994" Y="0.80999994" Z="0.80999994" />
+            </PositionComponent>
+            <TypeComponent Name="Heiltrank">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="20">
+            <PositionComponent PosX="7" PosY="6">
+                <Translation X="0.0" Y="0.9719998" Z="0.16199999" />
+                <Scale X="0.80999994" Y="0.80999994" Z="0.80999994" />
+            </PositionComponent>
+            <TypeComponent Name="Heiltrank">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="21">
+            <PositionComponent PosX="6" PosY="6">
+                <Translation X="0.0" Y="1.0000001" Z="0.2" />
+            </PositionComponent>
+            <TypeComponent Name="Apfel">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="22">
+            <PositionComponent PosX="5" PosY="6">
+                <Translation X="0.0" Y="1.0000001" Z="0.4" />
+            </PositionComponent>
+            <TypeComponent Name="Wein">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="23">
+            <PositionComponent PosX="5" PosY="6">
+                <Translation X="0.20000002" Y="1.0000001" Z="0.1" />
+            </PositionComponent>
+            <TypeComponent Name="Wein">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="24">
+            <PositionComponent PosX="4" PosY="13" />
+            <TypeComponent Name="Werkbank">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

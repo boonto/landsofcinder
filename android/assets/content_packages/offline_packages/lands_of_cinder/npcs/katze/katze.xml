@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Katze</Name>
+    <ModelPath>katze/katze.g3db</ModelPath>
+    <Icon>keinicon_icon.png</Icon>
+    <Dialog>Miau!</Dialog>
+    <HP>20</HP>
+</Npc>

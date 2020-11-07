@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Onkel Rufus</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+    <Dialog>Hallo Junge</Dialog>
+    <HP>20</HP>
+</Npc>

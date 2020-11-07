@@ -1,0 +1,66 @@
+<Scene>
+    <DirectionLightPosition X="-4.3000007" Y="18.5" Z="12.5" />
+    <Sound>
+        <AmbientMusic>taverne_ambient.ogg</AmbientMusic>
+        <CombatMusic>battle_theme_ii.ogg</CombatMusic>
+    </Sound>
+    <Background backgroundWidth="11.0">taverne_vorne.png</Background>
+    <Grid rowValue="17" columnValue="17">
+        <Row ID="0">96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="1">96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;96;</Row>
+        <Row ID="2">96;96;96;96;96;96;96;96;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="3">96;96;96;96;96;96;96;96;32;32;32;32;32;96;96;96;96;</Row>
+        <Row ID="4">96;96;96;96;96;96;96;32;32;32;32;32;32;96;96;96;96;</Row>
+        <Row ID="5">96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;96;96;</Row>
+        <Row ID="6">96;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;96;</Row>
+        <Row ID="7">96;96;96;96;96;32;32;32;32;32;32;32;32;96;64;32;32;</Row>
+        <Row ID="8">96;96;96;96;32;32;32;32;32;32;32;32;96;64;96;96;32;</Row>
+        <Row ID="9">96;96;96;32;32;32;32;32;96;32;64;96;96;96;96;32;32;</Row>
+        <Row ID="10">96;96;96;32;32;96;32;32;32;64;96;96;96;96;32;32;32;</Row>
+        <Row ID="11">96;96;96;32;32;32;32;32;64;96;96;96;96;32;32;32;32;</Row>
+        <Row ID="12">96;96;96;96;32;32;32;32;96;96;96;96;32;32;32;32;32;</Row>
+        <Row ID="13">96;96;96;96;96;32;32;96;96;96;96;32;32;32;32;32;32;</Row>
+        <Row ID="14">96;96;96;96;96;32;32;64;96;96;32;32;32;32;32;32;96;</Row>
+        <Row ID="15">96;96;96;96;96;96;32;32;96;32;32;32;32;32;32;96;96;</Row>
+        <Row ID="16">96;96;96;96;96;96;32;32;32;32;32;32;32;32;96;96;96;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="13" PosY="8" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="9" PosY="10">
+                <Translation X="0.0" Y="1.4086244" Z="0.20000002" />
+                <Scale X="1.0" Y="1.7715611" Z="1.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>taverne.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="14" PosY="7">
+                <Translation X="0.0" Y="0.2" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>abitia_tor.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="7" PosY="14">
+                <Translation X="0.0" Y="0.2" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>brunos_haus_von_vorne.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="5">
+            <PositionComponent PosX="10" PosY="9" />
+            <TypeComponent Name="Betrunkener">NPC</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

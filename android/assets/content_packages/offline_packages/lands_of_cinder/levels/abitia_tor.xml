@@ -1,0 +1,120 @@
+<Scene>
+    <DirectionLightPosition X="12.7" Y="15.900001" Z="-5.7" />
+    <Sound>
+        <AmbientMusic>nature_ambient.ogg</AmbientMusic>
+        <CombatMusic>battle_theme_ii.ogg</CombatMusic>
+    </Sound>
+    <Background backgroundWidth="14.0">abitia_tor.png</Background>
+    <Grid rowValue="19" columnValue="19">
+        <Row ID="0">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="5">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="6">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="7">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="8">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="9">32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="10">32;32;32;64;32;32;32;32;32;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="11">32;32;32;96;96;64;96;64;64;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="12">32;32;32;32;96;96;96;96;96;32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="13">32;32;32;32;32;96;96;96;64;64;64;96;96;32;32;32;32;32;32;</Row>
+        <Row ID="14">32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;32;32;32;32;</Row>
+        <Row ID="15">32;32;32;32;32;32;32;96;96;96;96;96;96;96;96;96;96;64;32;</Row>
+        <Row ID="16">32;32;32;32;32;32;32;32;64;96;96;96;96;96;96;64;96;64;32;</Row>
+        <Row ID="17">32;32;32;32;32;32;32;32;32;64;96;96;96;96;96;96;96;32;32;</Row>
+        <Row ID="18">32;32;32;32;32;32;32;32;32;96;64;96;64;96;96;96;32;32;32;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="10" PosY="13" />
+            <TypeComponent Name="Metallteile">OBJECT</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="8" PosY="16" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="12" PosY="18" />
+            <TypeComponent Name="Busch">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="9" PosY="17" />
+            <TypeComponent Name="Feuerstelle">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="4">
+            <PositionComponent PosX="17" PosY="15" />
+            <TypeComponent Name="Wegweiser">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="5">
+            <PositionComponent PosX="15" PosY="16" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="6">
+            <PositionComponent PosX="10" PosY="18" />
+            <TypeComponent Name="Truhe">CHEST</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <InventoryComponent>
+                <Equippable Amount="1">Schwert</Equippable>
+            </InventoryComponent>
+        </Entity>
+        <Entity ID="7">
+            <PositionComponent PosX="5" PosY="11" />
+            <TypeComponent Name="Bruno">NPC</TypeComponent>
+            <RotationComponent>90.0</RotationComponent>
+            <MerchantComponent>
+                <Item Amount="2" Price="10">Kleines Zahnrad</Item>
+                <Consumable Amount="5" Price="4">Apfel</Consumable>
+            </MerchantComponent>
+
+        </Entity>
+        <Entity ID="8">
+            <PositionComponent PosX="7" PosY="11">
+                <Translation X="0.1" Y="0.8000001" Z="0.2" />
+            </PositionComponent>
+            <TypeComponent Name="Apfel">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="9">
+            <PositionComponent PosX="8" PosY="11">
+                <Translation X="-0.8000001" Y="0.0" Z="0.0" />
+            </PositionComponent>
+            <TypeComponent Name="Werkbank">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="10">
+            <PositionComponent PosX="7" PosY="11">
+                <Translation X="0.0" Y="0.8000001" Z="-0.2" />
+            </PositionComponent>
+            <TypeComponent Name="Gebratenes Fleisch">CONSUMABLE</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="11">
+            <PositionComponent PosX="17" PosY="16">
+                <Translation X="-0.099" Y="-0.5902777" Z="0.1736307" />
+                <Scale X="0.99" Y="0.31067237" Z="1.736307" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>wald.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="12">
+            <PositionComponent PosX="3" PosY="10">
+                <Translation X="0.0" Y="0.2" Z="-0.089999996" />
+                <Scale X="0.99" Y="1.0" Z="0.9" />
+            </PositionComponent>
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>taverne_vorne.xml</LevelChangeComponent>
+        </Entity>
+    </EntityList>
+</Scene>

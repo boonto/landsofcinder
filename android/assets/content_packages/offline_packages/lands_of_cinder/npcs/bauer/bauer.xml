@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Bauer</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngelb_icon.png</Icon>
+    <Dialog>Das Leben ist so angstrengend!</Dialog>
+    <HP>20</HP>
+</Npc>

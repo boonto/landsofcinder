@@ -1,0 +1,20 @@
+<Quest>
+    <QuestName>Die seltsame Diebensbande</QuestName>
+    <Description>
+        Ich bin gerade einer seltsamen Diebesbande im Wald begegnet...
+    </Description>
+    <Dialog>
+        /npcs/mann_mit_hut/diebensbande_raubzug_1.dialog
+    </Dialog>
+    <QuestEvents>
+        <QuestEvent>
+            <Description>Das waren echt komische Leute...</Description>
+            <GoalEvent>
+                <Event>
+                    <Type>DIALOG_STARTED</Type>
+                    <Argument>Biff</Argument>
+                </Event>
+            </GoalEvent>
+        </QuestEvent>
+    </QuestEvents>
+</Quest>

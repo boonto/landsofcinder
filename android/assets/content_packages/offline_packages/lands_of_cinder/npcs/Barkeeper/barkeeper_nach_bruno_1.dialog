@@ -1,0 +1,67 @@
+<DialogSheet>
+	<ID>barkeeper_nach_bruno_1</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Hey Junge, du siehst aus als könntest du ein Bier vertragen!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Das kannst du laut sagen!</Text>
+		</Dialog>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Was ist denn los? Schicken sie dich ins Landesinnere?</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Nein, das nicht. Ich komme gerade vom Aufseher.</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>
+				Und dieser stinkende Kerl weigert sich einfach, mir die Essensration für diesen Monat auszuhändigen!
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>Ahh, Bruno. </Text>
+		</Dialog>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				*flüstert* Man, pass auf wie du hier redest. Vielleicht rennt noch einer von den Leuten hier direkt zu ihm.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				*laut* Ja, du hast recht. Diese Rebellen sind wirklich stinkende Idioten!
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>barkeeper</Name>
+			<Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+			<Text>
+				*flüstert* Siehst du den Typ da hinten in der Ecke? Das ist Hubert, der ehemalige Oberaufseher. Vielleicht kann der dir ja irgendwie helfen.
+                Wobei ich mir nicht zu viel von ihm versprechen würde. Er ist jetzt schon seit 10 Tagen durchgängig hier, und kippt ein Bier nach dem anderen...
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/player_icon.png</Icon>
+			<Text>Danke. Ich werd mal zu ihm rübergehen.</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>
+		Vector2 backgroundSize = LevelManager.getInstance().getLevel().getBackgroundSize();
+		downLeft.set((- backgroundSize.x / 2.f), 0, (backgroundSize.y / 2.f));
+		upRight.set((backgroundSize.x / 2.f), 0, (-backgroundSize.y / 2.f));

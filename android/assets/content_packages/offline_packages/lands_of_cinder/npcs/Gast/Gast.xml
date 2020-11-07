@@ -1,0 +1,7 @@
+<Npc>
+    <Name>Gast</Name>
+    <ModelPath>altermann/altermanngelb.g3db</ModelPath>
+    <Icon>npc/gesichtaltermanngruen_icon.png</Icon>
+    <Dialog>Nein man, ich will noch nicht gehn...</Dialog>
+    <HP>20</HP>
+</Npc>

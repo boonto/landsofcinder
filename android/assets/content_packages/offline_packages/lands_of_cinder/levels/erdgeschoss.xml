@@ -1,0 +1,48 @@
+<Scene>
+    <DirectionLightPosition X="11.1" Y="15.0" Z="1.5" />
+    <Sound />
+    <Background backgroundWidth="12.0">erdgeschoss.png</Background>
+    <Grid rowValue="10" columnValue="10">
+        <Row ID="0">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;32;32;32;32;32;32;32;</Row>
+        <Row ID="5">32;32;32;32;96;96;64;64;96;64;</Row>
+        <Row ID="6">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="7">32;32;32;32;32;96;96;96;96;96;</Row>
+        <Row ID="8">32;32;32;32;32;96;64;64;64;64;</Row>
+        <Row ID="9">32;32;32;32;32;32;32;32;32;32;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="9" PosY="8" />
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>Waldhaus.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="9" PosY="5" />
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>Keller.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="6" PosY="8" />
+            <TypeComponent Name="Bett">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="8" PosY="8" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>270.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="4">
+            <PositionComponent PosX="6" PosY="5" />
+            <TypeComponent Name="Arbeitstisch">OBJECT</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>

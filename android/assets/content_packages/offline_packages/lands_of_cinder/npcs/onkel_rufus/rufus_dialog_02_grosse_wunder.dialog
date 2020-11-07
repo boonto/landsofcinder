@@ -1,0 +1,37 @@
+<DialogSheet>
+	<ID>Rufus_Dialog_02_Grosse_Wunder</ID>
+	<Dialogs>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+			   Hier ist dein Werkzeug!
+			</Text>
+		</Dialog>
+		<Dialog> 
+			<Text>
+			    Ah Danke!  Warte kurz, dann mach ich die schnell die Kisten fertig.
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>SCHRAUBENSCHLUESSEL</Name>
+			<Icon>Item\schraubenschluessel_icon.png</Icon>
+			<Text>
+				*Krach bum tschak* *düdelü* *QUIETSCH* *schraub schraub schraub*...
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Text>
+			     So das wars. Du kannst die Kisten jetzt mitnehmen. 
+			     Aber pass auf dich auf, ich habe gestern einen Wolf am Waldesrand gesehen. Und die Wölfe hungern noch mehr als wir!
+			</Text>
+		</Dialog>
+		<Dialog>
+			<Name>HERO</Name>
+			<Icon>player/gesichtplayer_icon.png</Icon>
+			<Text>
+			    Ich bin vorsichtig! Bis später dann!
+			</Text>
+		</Dialog>
+	</Dialogs>
+</DialogSheet>

@@ -1,0 +1,42 @@
+<Scene>
+    <DirectionLightPosition X="0.0" Y="0.0" Z="0.0" />
+    <Sound />
+    <Background backgroundWidth="10.0">brunos_haus_obergeschoss.png</Background>
+    <Grid rowValue="7" columnValue="7">
+        <Row ID="0">32;32;32;32;32;32;32;</Row>
+        <Row ID="1">32;32;32;32;32;32;32;</Row>
+        <Row ID="2">32;32;32;32;32;32;32;</Row>
+        <Row ID="3">32;32;32;32;32;32;32;</Row>
+        <Row ID="4">32;32;32;64;32;32;32;</Row>
+        <Row ID="5">32;32;32;96;64;32;32;</Row>
+        <Row ID="6">32;32;32;64;96;96;64;</Row>
+    </Grid>
+    <EntityList>
+        <Entity ID="0">
+            <PositionComponent PosX="4" PosY="5" />
+            <TypeComponent Name="Player">PLAYER</TypeComponent>
+            <RotationComponent>180.0</RotationComponent>
+            <CombatComponent Level="1" Health="125" Attack="10" Defense="10" Strength="5" Knowledge="5" MaxSteam="100" MaxActions="3" />
+            <InventoryComponent />
+        </Entity>
+        <Entity ID="1">
+            <PositionComponent PosX="3" PosY="4" />
+            <TypeComponent Name="LevelChange">EMPTY</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <LevelChangeComponent>bruno_erdgeschoss.xml</LevelChangeComponent>
+        </Entity>
+        <Entity ID="2">
+            <PositionComponent PosX="6" PosY="6" />
+            <TypeComponent Name="Brunos Eimerversteck">CHEST</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+            <InventoryComponent>
+                <Item Amount="1">Brunos Diamant</Item>
+            </InventoryComponent>
+        </Entity>
+        <Entity ID="3">
+            <PositionComponent PosX="3" PosY="6" />
+            <TypeComponent Name="Bauer">NPC</TypeComponent>
+            <RotationComponent>0.0</RotationComponent>
+        </Entity>
+    </EntityList>
+</Scene>
