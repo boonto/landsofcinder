@@ -1,6 +1,6 @@
 # Lands of Cinder
 
-This is an isometric role-playing game for PCs/Macs and Android based on [libGDX](https://github.com/libgdx/libgdx).
+This is an isometric role-playing game for desktops and Android based on [libGDX](https://github.com/libgdx/libgdx).
 A big part is allowing users to create content for the game with the inbuilt editor and sharing tools.
 The online component, which consists of a node based server, is hosted [here](https://github.com/boonto/locserver).
 However, it is pretty buggy, and I commented out those parts.
@@ -8,7 +8,7 @@ However, it is pretty buggy, and I commented out those parts.
 It was created as a student project over one year 2015 to 2016 at Nuremberg Institute of Technology by Philipp Schönhuth, Willi Schorrig, Andreas Vogl and me.
 We wanted to continue after the project but with theses and work there was no more time left.
 Although we tried to keep the code pretty clean, this was in our early programming days,
-and with deadlines and quick fixes there is definitely a lot of cruft. There are a lot of bugs and specific actions lead to game crashes.
+and with deadlines and quick fixes there is definitely a lot of cruft. There are a lot of bugs and specific actions that lead to game crashes.
 
 Our main motivation was to learn and get insights into many of the aspects of game development,
 which led to the decision of using a smaller framework like libGDX instead of a more advanced game engine.
